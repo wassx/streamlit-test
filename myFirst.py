@@ -20,6 +20,7 @@ selectedEntityId = st.sidebar.selectbox(
     entityIds
 )
 
+
 selectedMetricId = st.sidebar.selectbox(
     'Select metric: ',
     ('builtin:host.disk.bytesWritten', 'builtin:host.disk.readTime', 'builtin:host.net.nic.packets.tx', 'builtin:host.net.nic.trafficIn'))
